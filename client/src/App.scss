@@ -1,0 +1,106 @@
+.navMenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background: #be703c48;
+  margin-top: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #f5e2c3;
+}
+
+.ElipsNav {
+  margin-left: 20px;
+}
+
+.mainBlock {
+  margin-left: 10%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  width: 70vw;
+}
+
+.infoTextOne {
+  color: #be713c;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 300;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.infoTextTwo {
+  font-family: Montserrat;
+  font-size: 33px;
+  font-weight: 600;
+  color: #f5e2c3;
+  width: 75%;
+  margin-bottom: 30px;
+}
+
+.btnCatalog {
+  font-family: Montserrat;
+  background-color: rgba(240, 248, 255, 0);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 25px;
+  width: 35%;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #f5e2c3;
+  color: #f5e2c3;
+  &:hover {
+    background-color: rgba(240, 248, 255, 0.114);
+    cursor: pointer;
+  }
+}
+
+.infoPlay {
+  width: 30vw;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  display: block;
+  overflow: visible;
+  width: 120px;
+  font-size: 14px;
+  fill: #f5e2c3;
+  transform: rotate(220deg);
+  letter-spacing: 2px;
+  transition: transform 3s ease;
+  cursor: pointer;
+  &:hover {
+    transform: rotate(90deg);
+  }
+}
+
+#playLogo {
+  transform: rotate(140deg);
+}
+
+.circle path {
+  fill: none;
+}
+
+.aboutMe {
+  margin-top: 50px;
+  color: #f5e2c3;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+.numberInfo {
+  width: 15%;
+  text-align: center;
+}
