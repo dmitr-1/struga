@@ -132,7 +132,8 @@
   margin: 50px auto;
 }
 
-.catalogBlock {
+.catalogBlock,
+.aboutMaster {
   width: 75vw;
   margin: 0 auto;
 }
@@ -153,12 +154,23 @@
 }
 
 .catalogBlockMain,
-.catalogBlockMain2 {
+.catalogBlockMain2,
+.imgAbout {
   display: flex;
   flex-direction: column;
 }
 
-.One {
+.aboutMaster {
+  background-color: #212121;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.One,
+.aboutMasterJScontent {
   display: flex;
   justify-content: space-between;
 }
@@ -177,4 +189,47 @@
   width: 60vw;
   margin: 5px;
   border-radius: 20px;
+}
+
+.aboutTitle {
+  margin-top: 30px;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60.95px;
+  color: #f5e2c3;
+}
+
+.discriptonAbout {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.tgtAbout1,
+.tgtAbout2 {
+  width: 15vw;
+}
+
+.tgtAbout1 {
+  margin-top: 40px;
+}
+
+.tgtAbout2 {
+  margin-top: -20px;
+  margin-left: 50px;
+}
+
+.aboutClient,
+.aboutReciew {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60.95px;
+  color: #f5e2c3;
+  margin-top: 50px;
 }
