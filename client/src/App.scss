@@ -58,7 +58,8 @@
 }
 
 .btnCatalogMain,
-.btnCatalog,.btnCatalogAbout {
+.btnCatalog,
+.btnCatalogAbout {
   font-family: Montserrat;
   background-color: rgba(240, 248, 255, 0);
   font-size: 16px;
@@ -74,7 +75,8 @@
     cursor: pointer;
   }
 }
-.btnCatalogMain,.btnCatalogAbout {
+.btnCatalogMain,
+.btnCatalogAbout {
   color: #f5e2c3;
 }
 
@@ -138,7 +140,8 @@
 }
 
 .catalogBlock,
-.aboutMaster {
+.aboutMaster,
+.galereyJob {
   width: 75vw;
   margin: 0 auto;
 }
@@ -167,6 +170,15 @@
 
 .aboutMaster {
   background-color: #212121;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.galereyJob {
+  background-color: #ffffff;
   width: 100%;
   position: absolute;
   left: 50%;
@@ -316,4 +328,21 @@
   background-image: url('https://w7.pngwing.com/pngs/360/46/png-transparent-computer-icons-arrow-symbol-arrow-psd-angle-text-rectangle-thumbnail.png');
   background-size: cover;
   cursor: pointer;
+}
+
+.titleGal {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60.95px;
+}
+.discriptionGal {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.galer {
+  display: flex;
+  flex-direction: column;
 }

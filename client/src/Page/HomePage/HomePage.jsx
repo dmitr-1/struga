@@ -6,6 +6,15 @@ import img1About from '../images/imageAbout1.png';
 import img2About from '../images/imageAbout2.png';
 import Clients from '../../Components/Clients';
 import Reciews from '../../Components/Reciews';
+import galer1 from '../images/galer1.svg';
+import galer2 from '../images/galer2.svg';
+import galer3 from '../images/galer3.svg';
+import galer4 from '../images/galer4.svg';
+import galer5 from '../images/galer5.svg';
+import galer6 from '../images/galer6.svg';
+import galer7 from '../images/galer7.svg';
+import galer8 from '../images/galer8.svg';
+import galer9 from '../images/galer9.svg';
 
 export default function HomePage() {
   return (
@@ -104,6 +113,34 @@ export default function HomePage() {
             <button type='submit' className='btnCatalogAbout'>
               ОСТАВИТЬ ОТЗЫВ
             </button>
+          </div>
+        </div>
+      </div>
+      <div className='galereyJob'>
+        <div style={{ width: '80vw', margin: '0 auto' }}>
+          <div className='titleGal'>Галерея работ</div>
+          <div className='discriptionGal'>
+            Наши изделия изготовлены из отборной, хорошо высушенной древесины
+            твердых пород, тщательно отшлифованы и пропитаны натуральными
+            маслами. К каждому заказу мы подходим индивидуально, поэтому готовы
+            вопротить в жизнь даже самые смелые идеи!
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div className='galer'>
+              <img src={galer1} className='galerImg' />
+              <img src={galer2} />
+              <img src={galer3} />
+            </div>
+            <div className='galer'>
+              <img src={galer4} />
+              <img src={galer5} />
+              <img src={galer6} />
+            </div>
+            <div className='galer'>
+              <img src={galer7} />
+              <img src={galer8} />
+              <img src={galer9} />
+            </div>
           </div>
         </div>
       </div>
