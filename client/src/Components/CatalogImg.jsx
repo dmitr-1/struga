@@ -7,6 +7,7 @@ import img5 from '../Page/images/image5.png';
 import img6 from '../Page/images/image6.png';
 import img7 from '../Page/images/image7.png';
 
+
 export default function CatalogImg() {
   return (
     <div>

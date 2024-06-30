@@ -5,6 +5,7 @@ import CatalogImg from '../../Components/CatalogImg';
 import img1About from '../images/imageAbout1.png';
 import img2About from '../images/imageAbout2.png';
 import Clients from '../../Components/Clients';
+import Reciews from '../../Components/Reciews';
 
 export default function HomePage() {
   return (
@@ -98,6 +99,12 @@ export default function HomePage() {
           <div className='aboutClient'>Наши клиенты</div>
           <Clients />
           <div className='aboutReciew'>Отзывы</div>
+          <Reciews />
+          <div style={{ textAlign: 'center' }}>
+            <button type='submit' className='btnCatalogAbout'>
+              ОСТАВИТЬ ОТЗЫВ
+            </button>
+          </div>
         </div>
       </div>
     </div>

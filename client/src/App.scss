@@ -58,7 +58,7 @@
 }
 
 .btnCatalogMain,
-.btnCatalog {
+.btnCatalog,.btnCatalogAbout {
   font-family: Montserrat;
   background-color: rgba(240, 248, 255, 0);
   font-size: 16px;
@@ -74,8 +74,13 @@
     cursor: pointer;
   }
 }
-.btnCatalogMain {
+.btnCatalogMain,.btnCatalogAbout {
   color: #f5e2c3;
+}
+
+.btnCatalogAbout {
+  width: 25%;
+  margin-bottom: 50px;
 }
 
 .btnCatalog {
@@ -232,4 +237,83 @@
   line-height: 60.95px;
   color: #f5e2c3;
   margin-top: 50px;
+}
+
+.mapClient {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  margin-top: 50px;
+}
+
+.imgClient,
+.oneRec {
+  margin-right: 100px;
+}
+
+.mapClient::-webkit-scrollbar {
+  width: 10px;
+}
+
+.mapClient::-webkit-scrollbar-track {
+  display: none;
+}
+
+.mapClient::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.mapClient::-webkit-scrollbar-button:start:decrement {
+  background-image: url('https://w7.pngwing.com/pngs/838/348/png-transparent-arrow-straight-arrow-thumbnail.png');
+  background-size: cover;
+  cursor: pointer;
+}
+
+.mapClient::-webkit-scrollbar-button:end:increment {
+  background-image: url('https://w7.pngwing.com/pngs/360/46/png-transparent-computer-icons-arrow-symbol-arrow-psd-angle-text-rectangle-thumbnail.png');
+  background-size: cover;
+  cursor: pointer;
+}
+.defaultPhoto {
+  width: 20%;
+}
+
+.mapReciews {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  color: #f5e2c3;
+  width: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.oneRec {
+  border: 1px solid #f5e2c3;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.mapReciews::-webkit-scrollbar {
+  width: 10px;
+}
+
+.mapReciews::-webkit-scrollbar-track {
+  display: none;
+}
+
+.mapReciews::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.mapReciews::-webkit-scrollbar-button:start:decrement {
+  background-image: url('https://w7.pngwing.com/pngs/838/348/png-transparent-arrow-straight-arrow-thumbnail.png');
+  background-size: cover;
+  cursor: pointer;
+}
+
+.mapReciews::-webkit-scrollbar-button:end:increment {
+  background-image: url('https://w7.pngwing.com/pngs/360/46/png-transparent-computer-icons-arrow-symbol-arrow-psd-angle-text-rectangle-thumbnail.png');
+  background-size: cover;
+  cursor: pointer;
 }
