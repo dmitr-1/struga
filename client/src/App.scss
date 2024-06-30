@@ -7,7 +7,6 @@
   margin: 0 auto;
   border-radius: 20px;
   background: #be703c48;
-  margin-top: 30px;
   font-size: 20px;
   cursor: pointer;
   color: #f5e2c3;
@@ -18,7 +17,6 @@
 }
 
 .mainBlock {
-  margin-left: 10%;
   background-image: linear-gradient(
       226.17deg,
       rgba(0, 0, 0, 0) -20.49%,
@@ -28,20 +26,16 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  z-index: -1;
+  width: 100%;
+  padding-top: 30px;
 }
 
 .info {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 100px;
+
   width: 70vw;
 }
 
@@ -63,6 +57,7 @@
   margin-bottom: 30px;
 }
 
+.btnCatalogMain,
 .btnCatalog {
   font-family: Montserrat;
   background-color: rgba(240, 248, 255, 0);
@@ -73,9 +68,23 @@
   text-align: center;
   border-radius: 20px;
   border: 1px solid #f5e2c3;
-  color: #f5e2c3;
+
   &:hover {
     background-color: rgba(240, 248, 255, 0.114);
+    cursor: pointer;
+  }
+}
+.btnCatalogMain {
+  color: #f5e2c3;
+}
+
+.btnCatalog {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: black;
+  width: 25%;
+  &:hover {
+    background-color: rgba(71, 72, 72, 0.114);
     cursor: pointer;
   }
 }
@@ -113,6 +122,7 @@
 .numberInfo {
   width: 15%;
   text-align: center;
+  margin-bottom: 70px;
 }
 .aboutMe {
   color: #f5e2c3;
@@ -120,4 +130,51 @@
   justify-content: space-between;
   width: 80vw;
   margin: 50px auto;
+}
+
+.catalogBlock {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.catTitle {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60.95px;
+}
+.catDiscription {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.catalogBlockMain,
+.catalogBlockMain2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.One {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tgt1 {
+  width: 40vw;
+  margin: 5px;
+  border-radius: 20px;
+}
+.tgt {
+  width: 20vw;
+  margin: 5px;
+  border-radius: 20px;
+}
+.tgt2 {
+  width: 60vw;
+  margin: 5px;
+  border-radius: 20px;
 }
