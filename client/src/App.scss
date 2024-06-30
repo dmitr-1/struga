@@ -19,12 +19,29 @@
 
 .mainBlock {
   margin-left: 10%;
+  background-image: linear-gradient(
+      226.17deg,
+      rgba(0, 0, 0, 0) -20.49%,
+      rgba(0, 0, 0, 0.75) 33.09%
+    ),
+    url('./Page/images/backgroundMainBlock.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
 }
 
 .info {
   display: flex;
   justify-content: space-around;
-  margin-top: 100px;
+  margin: 0 auto;
+  margin-top: 200px;
   width: 70vw;
 }
 
@@ -98,9 +115,9 @@
   text-align: center;
 }
 .aboutMe {
-  margin-top: 50px;
   color: #f5e2c3;
   display: flex;
   justify-content: space-between;
   width: 80vw;
+  margin: 50px auto;
 }
