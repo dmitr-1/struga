@@ -59,12 +59,13 @@
 
 .btnCatalogMain,
 .btnCatalog,
-.btnCatalogAbout {
+.btnCatalogAbout,
+.btnFeedBack {
   font-family: Montserrat;
   background-color: rgba(240, 248, 255, 0);
   font-size: 16px;
   font-weight: 400;
-  padding: 25px;
+  padding: 20px;
   width: 35%;
   text-align: center;
   border-radius: 20px;
@@ -78,6 +79,15 @@
 .btnCatalogMain,
 .btnCatalogAbout {
   color: #f5e2c3;
+}
+.btnFeedBack {
+  margin-top: 10px;
+  border: 1px solid #be713c;
+  color: #be713c;
+  &:hover {
+    background-color: rgba(100, 103, 105, 0.26);
+    cursor: pointer;
+  }
 }
 
 .btnCatalogAbout {
@@ -169,13 +179,13 @@
   flex-direction: column;
 }
 
-.aboutMaster {
+.aboutMaster,
+.footer {
   background-color: #212121;
   width: 100%;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  z-index: -1;
 }
 
 .galereyJob {
@@ -256,6 +266,7 @@
   display: flex;
   justify-content: space-between;
   overflow-x: auto;
+
   margin-top: 50px;
 }
 
@@ -344,5 +355,95 @@
   font-size: 50px;
   font-weight: 400;
   line-height: 60.95px;
+}
+
+.discriptionFeedback {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
   margin-top: 30px;
+}
+.feedBack {
+  margin-bottom: 50px;
+}
+
+.feedBackFiled {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.fieldTxt {
+  width: 50%;
+}
+.numberTel {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: #be713c;
+  margin-left: 20px;
+}
+.infoFeedBack {
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.inpUser {
+  width: 45%;
+  border-radius: 8px;
+  border: 1px solid #bdbdbd;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 97%;
+  height: 120px;
+  border-radius: 8px;
+  border: 1px solid #bdbdbd;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.dataCheck {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #bdbdbd;
+  margin-left: 10px;
+}
+
+.footerContent {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.StrugaDiscript {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f5e2c3;
+}
+.strugaDop {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  color: #f5e2c3;
+}
+
+.footerStruga,
+.footerCont,
+.footerNavi,
+.footercatalog {
+  width: 20%;
 }

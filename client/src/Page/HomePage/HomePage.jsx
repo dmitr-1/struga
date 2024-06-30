@@ -15,6 +15,9 @@ import galer6 from '../images/galer6.svg';
 import galer7 from '../images/galer7.svg';
 import galer8 from '../images/galer8.svg';
 import galer9 from '../images/galer9.svg';
+import social from '../images/social.svg';
+import yaMap from '../images/map.svg';
+import Footer from '../../Components/Footer';
 
 export default function HomePage() {
   return (
@@ -168,8 +171,55 @@ export default function HomePage() {
           </div>
         </div>
         <div className='feedBack'>
-          <div className='titleFeedback'>Связаться с нами</div>
+          <div className='feedBackFiled'>
+            <div className='fieldTxt'>
+              <div className='titleFeedback'>Связаться с нами</div>
+              <div className='discriptionFeedback'>
+                Мы часто экспериментируем и увлекаемся новыми идеями -
+                проваливаемся в творчество. Увидев что-то где-то - загораемся
+                сотворить нечто подобное - только по своему. К каждому заказу мы
+                подходим индивидуально, поэтому готовы вопротить в жизнь даже
+                самые смелые идеи!
+              </div>
+              <div className='infoFeedBack'>
+                <img src={social} />
+                <span className='numberTel'>+7 (917) 449-01-30</span>
+              </div>
+
+              <div className='inputs'>
+                <input
+                  type='text'
+                  placeholder='Ваше имя *'
+                  className='inpUser'
+                />
+                <input
+                  type='text'
+                  placeholder='Номер телефона *'
+                  className='inpUser'
+                />
+              </div>
+              <textarea
+                type='text'
+                placeholder='Сообщение'
+                className='inpMsg'
+              />
+              <div>
+                <input type='checkbox' />
+                <span className='dataCheck'>
+                  Согласен на обработку персональных данных
+                </span>
+              </div>
+              <button type='submit' className='btnFeedBack'>
+                ОТПРАВИТЬ
+              </button>
+            </div>
+
+            <div className='map'>
+              <img src={yaMap} />
+            </div>
+          </div>
         </div>
+        <Footer/>
       </div>
     </div>
   );
