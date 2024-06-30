@@ -125,21 +125,45 @@ export default function HomePage() {
             маслами. К каждому заказу мы подходим индивидуально, поэтому готовы
             вопротить в жизнь даже самые смелые идеи!
           </div>
-          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-around',
+              marginTop: '30px',
+            }}
+          >
             <div className='galer'>
-              <img src={galer1} className='galerImg' />
-              <img src={galer2} />
-              <img src={galer3} />
+              <div>
+                <img src={galer1} className='galerImg' />
+              </div>
+              <div>
+                <img src={galer2} className='galerImg' />
+              </div>{' '}
+              <div>
+                <img src={galer3} className='galerImg' />
+              </div>
             </div>
             <div className='galer'>
-              <img src={galer4} />
-              <img src={galer5} />
-              <img src={galer6} />
+              <div>
+                <img src={galer4} className='galerImg' />
+              </div>
+              <div>
+                <img src={galer5} className='galerImg' />
+              </div>{' '}
+              <div>
+                <img src={galer6} className='galerImg' />
+              </div>
             </div>
             <div className='galer'>
-              <img src={galer7} />
-              <img src={galer8} />
-              <img src={galer9} />
+              <div>
+                <img src={galer7} className='galerImg' />
+              </div>
+              <div>
+                <img src={galer8} className='galerImg' />
+              </div>{' '}
+              <div>
+                <img src={galer9} className='galerImg' />
+              </div>
             </div>
           </div>
         </div>
