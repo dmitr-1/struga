@@ -167,6 +167,9 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        <div className='feedBack'>
+          <div className='titleFeedback'>Связаться с нами</div>
+        </div>
       </div>
     </div>
   );
