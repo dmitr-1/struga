@@ -265,32 +265,20 @@
 .mapClient {
   display: flex;
   justify-content: space-between;
-  overflow-x: auto;
-
+  overflow-x: hidden;
+  scroll-behavior: smooth;
   margin-top: 50px;
 }
 
-.imgClient,
+.imgClient {
+  margin-right: 80px;
+  margin-left: 20px;
+}
 .oneRec {
   margin-right: 100px;
+  margin-left: 50px;
 }
 
-.mapClient::-webkit-scrollbar {
-  width: 10px;
-}
-
-.mapClient::-webkit-scrollbar-button:start:decrement {
-  background-image: url('https://w7.pngwing.com/pngs/838/348/png-transparent-arrow-straight-arrow-thumbnail.png');
-  background-size: cover;
-
-  cursor: pointer;
-}
-
-.mapClient::-webkit-scrollbar-button:end:increment {
-  background-image: url('https://w7.pngwing.com/pngs/360/46/png-transparent-computer-icons-arrow-symbol-arrow-psd-angle-text-rectangle-thumbnail.png');
-  background-size: cover;
-  cursor: pointer;
-}
 .defaultPhoto {
   width: 20%;
 }
@@ -298,7 +286,8 @@
 .mapReciews {
   display: flex;
   justify-content: space-between;
-  overflow-x: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
   color: #f5e2c3;
   width: auto;
   margin-bottom: 50px;
@@ -309,22 +298,6 @@
   border: 1px solid #f5e2c3;
   border-radius: 20px;
   padding: 20px;
-}
-
-.mapReciews::-webkit-scrollbar {
-  width: 10px;
-}
-
-.mapReciews::-webkit-scrollbar-button:start:decrement {
-  background-image: url('https://w7.pngwing.com/pngs/838/348/png-transparent-arrow-straight-arrow-thumbnail.png');
-  background-size: cover;
-  cursor: pointer;
-}
-
-.mapReciews::-webkit-scrollbar-button:end:increment {
-  background-image: url('https://w7.pngwing.com/pngs/360/46/png-transparent-computer-icons-arrow-symbol-arrow-psd-angle-text-rectangle-thumbnail.png');
-  background-size: cover;
-  cursor: pointer;
 }
 
 .titleGal {
