@@ -214,8 +214,8 @@ export default function HomePage() {
               </button>
             </div>
 
-            <div className='map'>
-              <img src={yaMap} />
+            <div>
+              <img src={yaMap} className='map' />
             </div>
           </div>
         </div>
