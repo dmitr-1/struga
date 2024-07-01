@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import HomePage from './Page/HomePage/HomePage';
+
+const HomePage = React.lazy(() => import('./Page/HomePage/HomePage'));
 
 import './App.scss';
 
@@ -8,7 +9,14 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<HomePage />} />
+        <Route
+          path='/'
+          element={
+            <React.Suspense fallback={<>...</>}>
+              <HomePage />
+            </React.Suspense>
+          }
+        />
       </Routes>
     </>
   );
