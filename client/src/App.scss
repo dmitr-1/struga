@@ -425,6 +425,7 @@ textarea {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 50px;
 }
 .StrugaDiscript {
   font-family: Montserrat;
@@ -432,6 +433,8 @@ textarea {
   font-weight: 400;
   line-height: 24px;
   color: #f5e2c3;
+  margin-top: 10px;
+  cursor: pointer;
 }
 .strugaDop {
   font-family: Montserrat;
@@ -439,6 +442,8 @@ textarea {
   font-weight: 400;
   line-height: 14.63px;
   color: #f5e2c3;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 .footerStruga,
@@ -446,4 +451,16 @@ textarea {
 .footerNavi,
 .footercatalog {
   width: 20%;
+  margin-top: 50px;
+}
+.infoContFooter,
+.infoNaviFooter,
+.infoCatalogFooter {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: #f5e2c3;
+  margin-top: 20px;
+  cursor: pointer;
 }
